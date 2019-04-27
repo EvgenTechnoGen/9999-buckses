@@ -35,4 +35,7 @@ int main () {
     }
     else if ((sum / 1000) % 10 == 8) {
         std::cout << "Восемь тысяч" << std::endl;
-}
+    }
+    else if ((sum / 1000) % 10 == 9) {
+        std::cout << "Девять тысяч" << std::endl;
+    }
