@@ -15,3 +15,6 @@ int main () {
     if ((sum / 1000) % 10 == 1) {
         std::cout << "Одна тысяча" << std::endl;
     }
+    else if ((sum / 1000) % 10 == 2) {
+        std::cout << "Две тысячи" << std::endl;
+    }
