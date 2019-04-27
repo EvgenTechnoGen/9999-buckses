@@ -33,3 +33,6 @@ int main () {
     else if ((sum / 1000) % 10 == 7) {
         std::cout << "Семь тысяч" << std::endl;
     }
+    else if ((sum / 1000) % 10 == 8) {
+        std::cout << "Восемь тысяч" << std::endl;
+}
