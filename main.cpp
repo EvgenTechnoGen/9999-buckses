@@ -21,3 +21,6 @@ int main () {
     else if ((sum / 1000) % 10 == 3) {
        std::cout << "Три тысячи" << std::endl;
    }
+   else if ((sum / 1000) % 10 == 4) {
+        std::cout << "Четыре тысячи" << std::endl;
+    }
