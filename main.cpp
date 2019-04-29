@@ -39,3 +39,7 @@ int main () {
     else if ((sum / 1000) % 10 == 9) {
         std::cout << "Девять тысяч" << std::endl;
     }
+    
+    if ((sum / 100) % 10 == 1) {
+        std::cout << "сто " << std::endl;
+    }
