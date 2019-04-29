@@ -43,3 +43,7 @@ int main () {
     if ((sum / 100) % 10 == 1) {
         std::cout << "сто " << std::endl;
     }
+    else if ((sum / 100) % 10 == 2) {
+        std::cout << "двести " << std::endl;
+    }
+
