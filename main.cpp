@@ -52,4 +52,8 @@ int main () {
     else if ((sum / 100) % 10 == 4) {
         std::cout << "четыреста " << std::endl;
     }
+    else if ((sum / 100) % 10 == 5) {
+        std::cout << "пятьсот " << std::endl;
+    }
+
 
