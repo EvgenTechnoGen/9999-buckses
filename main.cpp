@@ -64,5 +64,9 @@ int main () {
     else if ((sum / 100) % 10 == 8) {
         std::cout << "восемьсот " << std::endl;
     }
+    else if ((sum / 100) % 10 == 9) {
+        std::cout << "девятьсот " << std::endl;
+    }
+
 
 
