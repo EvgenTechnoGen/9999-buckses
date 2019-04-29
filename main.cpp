@@ -55,5 +55,8 @@ int main () {
     else if ((sum / 100) % 10 == 5) {
         std::cout << "пятьсот " << std::endl;
     }
+    else if ((sum / 100) % 10 == 6) {
+        std::cout << "шестьсот " << std::endl;
+    }
 
 
