@@ -49,4 +49,7 @@ int main () {
     else if ((sum / 100) % 10 == 3) {
         std::cout << "триста " << std::endl;
     }
+    else if ((sum / 100) % 10 == 4) {
+        std::cout << "четыреста " << std::endl;
+    }
 
