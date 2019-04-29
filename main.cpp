@@ -68,5 +68,41 @@ int main () {
         std::cout << "девятьсот " << std::endl;
     }
 
+    if ((sum / 10) % 10 == 1 /*&& (sum / 1) % 10 == 1*/) {
+        std::cout << "десять " << std::endl;
+    }
+    else if ((sum / 10) % 10 == 2) {
+        std::cout << "двацать " << std::endl;
+    }
+    else if ((sum / 10) % 10 == 3) {
+        std::cout << "тридцать " << std::endl;
+    }
+    else if ((sum / 10) % 10 == 4) {
+        std::cout << "сорок " << std::endl;
+    }
+    else if ((sum / 10) % 10 == 5) {
+        std::cout << "пятьдесят " << std::endl;
+    }
+    else if ((sum / 10) % 10 == 6) {
+        std::cout << "шестьдесят " << std::endl;
+    }
+    else if ((sum / 10) % 10 == 7) {
+        std::cout << "семьдесят " << std::endl;
+    }
+    else if ((sum / 10) % 10 == 8) {
+        std::cout << "восемьдесят " << std::endl;
+    }
+    else if ((sum / 10) % 10 == 9) {
+        std::cout << "девяносто " << std::endl;
+    }
+    
+    if ((sum / 1 ) % 10 == 1) {
+        std::cout << "одиннадцать " << std::endl;
+    }
+    
+    std::cin.get();
+    return 0;
+}
+
 
 
