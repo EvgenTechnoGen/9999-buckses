@@ -21,3 +21,13 @@ int main () {
     else if ((sum / 1000) % 10 == 7) std::cout << "Семь тысяч" << std::endl;
     else if ((sum / 1000) % 10 == 8) std::cout << "Восемь тысяч" << std::endl;
     else if ((sum / 1000) % 10 == 9) std::cout << "Девять тысяч" << std::endl;
+    
+    if ((sum / 100) % 10 == 1) std::cout << "сто " << std::endl;
+    else if ((sum / 100) % 10 == 2) std::cout << "двести " << std::endl;
+    else if ((sum / 100) % 10 == 3) std::cout << "триста " << std::endl;
+    else if ((sum / 100) % 10 == 4) std::cout << "четыреста " << std::endl;
+    else if ((sum / 100) % 10 == 5) std::cout << "пятьсот " << std::endl;
+    else if ((sum / 100) % 10 == 6) std::cout << "шестьсот " << std::endl;
+    else if ((sum / 100) % 10 == 7) std::cout << "семьсот " << std::endl;
+    else if ((sum / 100) % 10 == 8) std::cout << "восемьсот " << std::endl;
+    else if ((sum / 100) % 10 == 9) std::cout << "девятьсот " << std::endl;
