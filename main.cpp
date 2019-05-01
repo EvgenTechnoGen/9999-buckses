@@ -64,3 +64,11 @@ int main () {
     else if ((sum / 1) % 10 == 7) std::cout << "семь долларов." << std::endl;
     else if ((sum / 1) % 10 == 8) std::cout << "восемь долларов." << std::endl;
     else if ((sum / 1) % 10 == 9) std::cout << "девять долларов." << std::endl;
+    
+    
+      
+    std::cin.get();
+    return 0;
+}
+
+
