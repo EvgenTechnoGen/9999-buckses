@@ -54,3 +54,13 @@ int main () {
     else if ((sum / 10) % 10 == 7) std::cout << "семьдесят " << std::endl;
     else if ((sum / 10) % 10 == 8) std::cout << "восемьдесят " << std::endl;
     else if ((sum / 10) % 10 == 9) std::cout << "девяносто " << std::endl;
+    
+    if ((sum / 1) % 10 == 1) std::cout << "один " << std::endl;
+    else if ((sum / 1) % 10 == 2) std::cout << "два " << std::endl;
+    else if ((sum / 1) % 10 == 3) std::cout << "три " << std::endl;
+    else if ((sum / 1) % 10 == 4) std::cout << "четыре доллара" << std::endl;
+    else if ((sum / 1) % 10 == 5) std::cout << "пять долларов." << std::endl;
+    else if ((sum / 1) % 10 == 6) std::cout << "шесть долларов." << std::endl;
+    else if ((sum / 1) % 10 == 7) std::cout << "семь долларов." << std::endl;
+    else if ((sum / 1) % 10 == 8) std::cout << "восемь долларов." << std::endl;
+    else if ((sum / 1) % 10 == 9) std::cout << "девять долларов." << std::endl;
